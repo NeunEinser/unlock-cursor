@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "unlock_cursor",
+  "version": "${version}",
+
+  "name": "Unlock Cursor",
+  "description": "This mod allows you to unlock the cursor for free movement at any time.",
+  "authors": [
+    "NeunEinser"
+  ],
+  "contact": {
+    "sources": "https://github.com/NeunEinser/unlock-cursor"
+  },
+
+  "license": "MIT",
+  "mixins": [
+    "unlock_cursor.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0"
+  }
+}
